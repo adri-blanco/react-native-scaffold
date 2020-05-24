@@ -5,3 +5,7 @@ export const Colors = {
   background: '#f1faee',
   dark: '#1d3557',
 };
+
+export const Fonts = {};
+
+export const Sizes = {};

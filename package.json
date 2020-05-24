@@ -8,11 +8,14 @@
     "start": "react-native start",
     "test": "jest",
     "eslint": "eslint .",
-    "prettier": "prettier --config .prettierrc.js --write"
+    "prettier": "prettier --config .prettierrc --write"
   },
   "dependencies": {
+    "@rematch/core": "^1.4.0",
+    "axios": "^0.19.2",
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-redux": "^7.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
