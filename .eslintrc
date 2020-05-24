@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "no-console": 1,
+    "react/jsx-filename-extension": 0,
+    "react/no-unescaped-entities": 0,
+    // We can not import with a relative path the common components.
+    "import/no-unresolved": [2, { "ignore": ["^common/"] }]
+  },
+  "env": {
+    "jest": true,
+    "browser": true
+  }
+}
